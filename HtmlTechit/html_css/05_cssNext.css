@@ -1,0 +1,25 @@
+.float{
+    width:50px;
+    height:50px;
+    float:left;
+}
+.blue{
+    width:50px;
+    height:50px;
+    float:left;
+}
+.pink{
+    clear:left
+}
+/* (범람을 막고 싶은 요소) ::after{
+    content: " ";
+    display: block;
+    clear: both; // 왼쪽 오른쪽 다 막아야 하기 때문에
+}
+     */
+     /* ClearFix기법으로 콘텐츠가 범람하는 header에 적용하면?
+     header::after{
+        content: " ";
+        display: block;
+        claer: both;
+      } */
